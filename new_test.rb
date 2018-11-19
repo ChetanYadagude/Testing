@@ -1,4 +1,3 @@
-api_git_commit1 = command "echo '#{git ls-remote https://github.com/ChetanYadagude/Sanjiv_project.git HEAD}' >> #{api_git_commit1}"
-puts "#{api_git_commit1}"
 puts "It is for testing";
-puts "testing again"
+puts "testing again";
+puts system('git ls-remote https://github.com/ChetanYadagude/Testing/blob/master/new_test.rb HEAD')
